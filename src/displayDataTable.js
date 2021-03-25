@@ -55,10 +55,6 @@ class EnhancedTableHead extends React.Component {
     return (
       <TableHead>
         <TableRow className="tableHead">
-          {/* <TableCell>
-            <Checkbox />
-          </TableCell> */}
-
           {Object.keys(data[0]).map(
             row => (
               (row === "Author" ||
